@@ -1,0 +1,214 @@
+CRITICAL - 2023-10-01 18:24:54 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Veterinario\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 19:27:36 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\Produto given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 154.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(154): mysqli_result->fetch_object('App\\Entities\\Produto')
+ 2 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Produto')
+ 3 SYSTEMPATH\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Produto')
+ 4 SYSTEMPATH\Model.php(238): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Produto')
+ 5 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Pedido.php(21): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedido->novo()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 19:28:01 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\Produto given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 154.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(154): mysqli_result->fetch_object('App\\Entities\\Produto')
+ 2 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Produto')
+ 3 SYSTEMPATH\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Produto')
+ 4 SYSTEMPATH\Model.php(238): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Produto')
+ 5 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Pedido.php(21): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedido->novo()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 19:28:02 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\Produto given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 154.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(154): mysqli_result->fetch_object('App\\Entities\\Produto')
+ 2 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Produto')
+ 3 SYSTEMPATH\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Produto')
+ 4 SYSTEMPATH\Model.php(238): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Produto')
+ 5 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Pedido.php(21): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedido->novo()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 19:28:02 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\Produto given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 154.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(154): mysqli_result->fetch_object('App\\Entities\\Produto')
+ 2 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Produto')
+ 3 SYSTEMPATH\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Produto')
+ 4 SYSTEMPATH\Model.php(238): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Produto')
+ 5 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Pedido.php(21): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedido->novo()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 19:29:24 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\Produto given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 154.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(154): mysqli_result->fetch_object('App\\Entities\\Produto')
+ 2 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Produto')
+ 3 SYSTEMPATH\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Produto')
+ 4 SYSTEMPATH\Model.php(238): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Produto')
+ 5 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Pedido.php(21): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedido->novo()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 19:29:48 --> Invalid file: "lista_prod.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('lista_prod.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('lista_prod', [], true)
+ 3 APPPATH\Controllers\Pedido.php(23): view('lista_prod', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedido->novo()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 19:30:21 --> Invalid file: "listaProdutos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listaProdutos.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('listaProdutos', [], true)
+ 3 APPPATH\Controllers\Pedido.php(23): view('listaProdutos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedido->novo()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 19:58:17 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\listaProdutos.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('listaProdutos', [], true)
+ 4 APPPATH\Controllers\Pedido.php(25): view('listaProdutos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedido->novo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 20:00:05 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\listaProdutos.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('listaProdutos', [], true)
+ 4 APPPATH\Controllers\Pedido.php(25): view('listaProdutos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedido->novo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 20:01:02 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\listaProdutos.php on line 16.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('listaProdutos', [], true)
+ 4 APPPATH\Controllers\Pedido.php(25): view('listaProdutos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedido->novo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 20:02:15 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\listaProdutos.php on line 16.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('listaProdutos', [], true)
+ 4 APPPATH\Controllers\Pedido.php(25): view('listaProdutos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedido->novo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 20:06:35 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\Pedido.php on line 38.
+ 1 APPPATH\Controllers\Pedido.php(38): array_push(null, Object(App\Models\PedidoModel))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedido->adicionarCarrinho('1027')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 20:08:02 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\listaProdutos.php on line 35.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('listaProdutos', [], true)
+ 4 APPPATH\Controllers\Pedido.php(40): view('listaProdutos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedido->adicionarCarrinho('1027')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 20:15:59 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\Pedido.php on line 38.
+ 1 APPPATH\Controllers\Pedido.php(38): array_push(null, Object(App\Entities\Pedido))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedido->adicionarCarrinho('1027')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 20:32:42 --> Object of class App\Entities\Pedido could not be converted to string
+in APPPATH\Views\listaProdutos.php on line 49.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('listaProdutos', [], true)
+ 4 APPPATH\Controllers\Pedido.php(25): view('listaProdutos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedido->novo()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 20:59:11 --> Undefined variable $carrinho
+in APPPATH\Controllers\Pedido.php on line 46.
+ 1 APPPATH\Controllers\Pedido.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carrinho', 'C:\\xampp\\htdocs\\Veterinario\\app\\Controllers\\Pedido.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedido->listarCarrinho()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 21:02:09 --> Array to string conversion
+in APPPATH\Controllers\Pedido.php on line 42.
+ 1 APPPATH\Controllers\Pedido.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\Veterinario\\app\\Controllers\\Pedido.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedido->listarCarrinho()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 21:12:48 --> Array to string conversion
+in APPPATH\Controllers\Pedido.php on line 46.
+ 1 APPPATH\Controllers\Pedido.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\Veterinario\\app\\Controllers\\Pedido.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedido->listarCarrinho()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 21:13:06 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, array given, called in C:\xampp\htdocs\Veterinario\app\Controllers\Pedido.php on line 45
+in SYSTEMPATH\BaseModel.php on line 607.
+ 1 APPPATH\Controllers\Pedido.php(45): CodeIgniter\BaseModel->findAll([...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedido->listarCarrinho()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 21:34:40 --> Attempt to read property "quantidade" on int
+in APPPATH\Controllers\Pedido.php on line 54.
+ 1 APPPATH\Controllers\Pedido.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "quantidade" on int', 'C:\\xampp\\htdocs\\Veterinario\\app\\Controllers\\Pedido.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedido->listarCarrinho()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 21:35:26 --> Attempt to read property "quantidade" on int
+in APPPATH\Controllers\Pedido.php on line 54.
+ 1 APPPATH\Controllers\Pedido.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "quantidade" on int', 'C:\\xampp\\htdocs\\Veterinario\\app\\Controllers\\Pedido.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedido->listarCarrinho()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-01 21:36:49 --> Undefined variable $joao
+in APPPATH\Views\listaProdutos.php on line 11.
+ 1 APPPATH\Views\listaProdutos.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $joao', 'C:\\xampp\\htdocs\\Veterinario\\app\\Views\\listaProdutos.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Veterinario\\app\\Views\\listaProdutos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('listaProdutos', [], true)
+ 5 APPPATH\Controllers\Pedido.php(25): view('listaProdutos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedido->novo()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedido))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
